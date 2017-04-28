@@ -1,0 +1,311 @@
+
+* {
+	/*box-sizing: border-box; 
+	border: 1px solid #38341c;*/
+	color:#AF7817;
+}
+
+header, section, footer{
+	font-family: 'EB Garamond', serif;
+	background-color: #FFE8D4;
+}
+
+section, footer {
+	margin-left: 300px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.main-header {
+	background-color: white;
+	/*background-color: black;*/
+	position: fixed;
+	height: auto;
+	width: 300px;
+	margin:0;
+	opacity: 0.7;
+	/*border-right: 1px solid #38341c;*/
+
+}
+
+header > div {
+	width: 250px;
+	margin: 15px auto;
+	text-align: center;
+	height: 130px;
+}
+
+header > div > img {
+	width: 100%;
+	text-align: center;
+	
+}
+
+
+header a {
+	color:#d4583c;
+}
+
+
+section a {
+	color:#d4583c;
+}
+
+.image{
+	background-color: black;
+	
+	margin-bottom: 40px;
+	display: inline-block;
+	margin-top: -20px;
+
+
+}
+
+.name{
+	text-align: center;
+	margin-left: 10px;	
+	padding-bottom: 10px;
+	margin-top: 0;
+}
+
+.name h1 {
+	color:#38341c;
+}
+
+.name p {
+	font-size: 16px;
+	padding: auto 10px;
+}
+
+.category li{
+	font-size: 3vh;
+	margin-left: 5%;
+
+}
+
+
+.follow {
+
+	margin-bottom: 0;
+	height: 50px;
+
+}
+
+.follow a {
+	color:white;
+	width: 100px;
+	display: inline;
+
+}
+
+
+.follow li {
+	display: inline;
+}
+
+
+.follow > ul > li > a > i {
+	color:#38341c;
+	padding: 7.5px;
+	font-size: 30px;
+}
+
+.search {
+	padding-top: 50px;
+	height: 75px;
+	width: 300px;
+}
+
+.search input {
+	width:200px;
+	float: left;
+	padding-left: 100px
+	margin: 0;
+}
+
+.search span {
+	display: inline;
+	float: left;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.home{
+	margin-left: 300px;
+
+	position: relative;	
+	background: url(https://images.pexels.com/photos/53195/glasses-fluke-angel-therapy-glasses-glass-golden-53195.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)
+				center center fixed;
+	background-size: cover;
+	height: 100vh;
+	width: auto;
+	z-index: 1 !important;
+}
+
+.home > div {
+	border: 2px solid #38341c;
+	text-align: center;
+	width: 30%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(60%,-50%);
+	padding: 20px;
+
+}
+
+.home > div h2 {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 0 0; 
+	color: #38341c;
+	font-size: 22px;
+}
+
+.home > div h3 {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 0 0; 
+	color: #38341c;
+	font-size: 16px;
+}
+
+.home > div p {
+	text-align: justify-all;
+	margin: 0;
+	padding: 10px 50px 0 50px; 
+	color:#38341c;
+	font-size: 16px;
+}
+
+.stories {
+	height: 100vh;
+	padding: 50px;
+	
+}
+
+.stories > div {
+	height: 100%;
+	
+}
+
+.stories > div > div {
+	height: 100%;
+}
+
+.stories > div > div > div {
+	height: 100%;
+	font-size: 16px;
+	padding: 20px;
+}
+
+#border {
+	border-bottom: 2px solid #38341c;
+}
+
+.article {
+	margin: 20px;
+}
+
+.stories img {
+	height: 80%;
+	width:80%;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.stories p {
+	text-indent: 20px;
+	padding: auto 20px;
+}
+
+
+.copyright > p {
+	text-align: left;
+	float: right;
+	color: #38341c;
+
+	
+}
+
+
+
+.follow-us  p{
+	font-size: 30px;
+	width: 35%;
+	display: inline-block;
+}
+
+.follow-us > i{
+	font-size: 30px;
+	display: inline-block;
+
+
+}
+
+#pic2{
+	margin-top: 5%;
+	margin-left: 0;
+	width: 100%;
+}
+
+
+header a:hover {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 1201px) {
+
+
+}	
+
+
+@media screen and (max-width: 769px) {
+
+.main-header {
+	position: relative;
+	width: 100%;
+}
+
+.home {
+	display: none;
+}
+
+.search {
+	padding-top: 50px;
+	height: 75px;
+	width: 100%;
+}
+
+.search input {
+	width: 70%;
+	float: left;
+	/*padding-left: 100px*/
+	margin: 0;
+}
+
+.search span {
+	/*display: inline;
+	float: left;*/
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+
+
+section, footer {
+	margin-left: 0px;
+}	
+
+
+
+
+
+
+
+}
+
